@@ -16,7 +16,6 @@
     "lint:fix": "pnpm lint --apply",
     "playground": "pnpm dev && pnpm --filter example-dev dev",
     "preinstall": "pnpm i --no-frozen-lockfile --filter './references/packages/**' --ignore-scripts && npx only-allow pnpm",
-    "postinstall": "pnpm dev",
     "prepare": "npx simple-git-hooks",
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
